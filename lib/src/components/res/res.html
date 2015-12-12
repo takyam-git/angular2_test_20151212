@@ -1,0 +1,7 @@
+<div class="panel panel-default">
+	<div class="panel-heading">
+		ID: {{res.id}} 投稿日時: {{res.postedAt.toString()}} <a (click)="destroy($event)" class="btn btn-default btn-sm">削除する</a>
+	</div>
+	<div class="panel-body" [innerHtml]="res.body|nl2br">
+	</div>
+</div>
