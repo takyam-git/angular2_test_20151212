@@ -1,0 +1,118 @@
+{
+  "ngDeps": {
+    "1": "angular2_test_20151212.components.res",
+    "3": [
+      {
+        "1": "dart:html",
+        "5": false
+      },
+      {
+        "1": "package:angular2/angular2.dart",
+        "5": false
+      },
+      {
+        "1": "package:angular2_test_20151212/src/domain/thread/thread.dart",
+        "5": false
+      },
+      {
+        "1": "package:angular2_test_20151212/src/pipes/nl2br.dart",
+        "5": false
+      }
+    ],
+    "5": [
+      {
+        "1": "ResComponent",
+        "4": [
+          {
+            "1": "Component",
+            "3": [
+              {
+                "1": "selector",
+                "2": "'my-app-res'"
+              },
+              {
+                "1": "templateUrl",
+                "2": "'res.html'"
+              },
+              {
+                "1": "directives",
+                "2": "const [NgIf]"
+              },
+              {
+                "1": "pipes",
+                "2": "const [Nl2BrPipe]"
+              }
+            ],
+            "4": false,
+            "5": true,
+            "6": true,
+            "7": true,
+            "8": false
+          }
+        ],
+        "7": [
+          {
+            "1": "res",
+            "2": [
+              {
+                "1": "Input",
+                "4": false,
+                "5": false,
+                "6": false,
+                "7": false,
+                "8": false
+              }
+            ]
+          }
+        ],
+        "8": [
+          {
+            "2": "NgIf"
+          }
+        ]
+      }
+    ],
+    "6": "res.dart",
+    "10": [
+      {
+        "1": "package:angular2/angular2.ng_deps.dart",
+        "4": "i0"
+      },
+      {
+        "1": "package:angular2_test_20151212/src/pipes/nl2br.ng_deps.dart",
+        "4": "i1"
+      }
+    ]
+  },
+  "ResComponent": {
+    "kind": "type",
+    "value": {
+      "isComponent": true,
+      "dynamicLoadable": true,
+      "selector": "my-app-res",
+      "exportAs": null,
+      "type": {
+        "name": "ResComponent",
+        "moduleUrl": "asset:angular2_test_20151212/lib/src/components/res/res.dart",
+        "isHost": false
+      },
+      "changeDetection": 5,
+      "inputs": {
+        "res": "res"
+      },
+      "outputs": {},
+      "hostListeners": {},
+      "hostProperties": {},
+      "hostAttributes": {},
+      "lifecycleHooks": [],
+      "template": {
+        "encapsulation": 2,
+        "template": "<div class=\"panel panel-default\">\n\t<div class=\"panel-heading\">\n\t\tID: {{res.id}} 投稿日時: {{res.postedAt.toString()}} <a (click)=\"destroy($event)\" class=\"btn btn-default btn-sm\">削除する</a>\n\t</div>\n\t<div class=\"panel-body\" [innerHtml]=\"res.body|nl2br\">\n\t</div>\n</div>",
+        "templateUrl": "asset:angular2_test_20151212/lib/src/components/res/res.html",
+        "styles": [],
+        "styleUrls": [],
+        "ngContentSelectors": []
+      }
+    }
+  }
+}

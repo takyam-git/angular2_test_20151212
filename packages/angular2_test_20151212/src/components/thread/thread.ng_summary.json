@@ -1,0 +1,89 @@
+{
+  "ngDeps": {
+    "1": "angular2_test_20151212.components.thread",
+    "3": [
+      {
+        "1": "package:angular2/angular2.dart",
+        "5": false
+      },
+      {
+        "1": "package:angular2_test_20151212/src/domain/thread/thread.dart",
+        "5": false
+      },
+      {
+        "1": "package:angular2_test_20151212/src/components/res/res.dart",
+        "5": false
+      }
+    ],
+    "5": [
+      {
+        "1": "ThreadComponent",
+        "4": [
+          {
+            "1": "Component",
+            "3": [
+              {
+                "1": "selector",
+                "2": "'my-app-thread'"
+              },
+              {
+                "1": "templateUrl",
+                "2": "'thread.html'"
+              },
+              {
+                "1": "directives",
+                "2": "const [NgFor, NgIf, ResComponent]"
+              }
+            ],
+            "4": false,
+            "5": true,
+            "6": true,
+            "7": true,
+            "8": false
+          }
+        ],
+        "8": [
+          {
+            "2": "NgFor"
+          },
+          {
+            "2": "NgIf"
+          },
+          {
+            "2": "ResComponent"
+          }
+        ]
+      }
+    ],
+    "6": "thread.dart"
+  },
+  "ThreadComponent": {
+    "kind": "type",
+    "value": {
+      "isComponent": true,
+      "dynamicLoadable": true,
+      "selector": "my-app-thread",
+      "exportAs": null,
+      "type": {
+        "name": "ThreadComponent",
+        "moduleUrl": "asset:angular2_test_20151212/lib/src/components/thread/thread.dart",
+        "isHost": false
+      },
+      "changeDetection": 5,
+      "inputs": {},
+      "outputs": {},
+      "hostListeners": {},
+      "hostProperties": {},
+      "hostAttributes": {},
+      "lifecycleHooks": [],
+      "template": {
+        "encapsulation": 2,
+        "template": "<my-app-res *ngFor=\"#res of resList.reversed\" [res]=\"res\"></my-app-res>\n<p *ngIf=\"resList.length == 0\">\n\t右の投稿フォームから入力してください\n</p>",
+        "templateUrl": "asset:angular2_test_20151212/lib/src/components/thread/thread.html",
+        "styles": [],
+        "styleUrls": [],
+        "ngContentSelectors": []
+      }
+    }
+  }
+}

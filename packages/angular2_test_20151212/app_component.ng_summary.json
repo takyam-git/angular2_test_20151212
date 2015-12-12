@@ -1,0 +1,90 @@
+{
+  "ngDeps": {
+    "1": "angular2_test_20151212.app_component",
+    "3": [
+      {
+        "1": "package:angular2/angular2.dart",
+        "5": false
+      },
+      {
+        "1": "package:angular2_test_20151212/src/domain/thread/thread.dart",
+        "5": false
+      },
+      {
+        "1": "package:angular2_test_20151212/src/components/thread/thread.dart",
+        "5": false
+      },
+      {
+        "1": "package:angular2_test_20151212/src/components/post/post.dart",
+        "5": false
+      }
+    ],
+    "5": [
+      {
+        "1": "AppComponent",
+        "4": [
+          {
+            "1": "Component",
+            "3": [
+              {
+                "1": "selector",
+                "2": "'my-app'"
+              },
+              {
+                "1": "templateUrl",
+                "2": "'app_component.html'"
+              },
+              {
+                "1": "directives",
+                "2": "const [ThreadComponent, PostComponent]"
+              }
+            ],
+            "4": false,
+            "5": true,
+            "6": true,
+            "7": true,
+            "8": false
+          }
+        ],
+        "8": [
+          {
+            "2": "ThreadComponent"
+          },
+          {
+            "2": "PostComponent"
+          }
+        ]
+      }
+    ],
+    "6": "app_component.dart"
+  },
+  "AppComponent": {
+    "kind": "type",
+    "value": {
+      "isComponent": true,
+      "dynamicLoadable": true,
+      "selector": "my-app",
+      "exportAs": null,
+      "type": {
+        "name": "AppComponent",
+        "moduleUrl": "asset:angular2_test_20151212/lib/app_component.dart",
+        "isHost": false
+      },
+      "changeDetection": 5,
+      "inputs": {},
+      "outputs": {},
+      "hostListeners": {},
+      "hostProperties": {},
+      "hostAttributes": {},
+      "lifecycleHooks": [],
+      "template": {
+        "encapsulation": 2,
+        "template": "<nav class=\"navbar navbar-inverse navbar-fixed-top\">\n\t<div class=\"container\">\n\t\t<div class=\"navbar-header\">\n\t\t\t<a class=\"navbar-brand\" href=\"#\">Simple BBS (現在の書き込み数: {{thread.resList.length}}個)</a>\n\t\t</div>\n\t</div>\n</nav>\n<div class=\"container\">\n\t<div class=\"row\">\n\t\t<div class=\"col-md-8\">\n\t\t\t<my-app-thread></my-app-thread>\n\t\t</div>\n\t\t<div class=\"col-md-4\">\n\t\t\t<my-app-post></my-app-post>\n\t\t</div>\n\t</div>\n</div>",
+        "templateUrl": "asset:angular2_test_20151212/lib/app_component.html",
+        "styles": [],
+        "styleUrls": [],
+        "ngContentSelectors": []
+      }
+    }
+  }
+}

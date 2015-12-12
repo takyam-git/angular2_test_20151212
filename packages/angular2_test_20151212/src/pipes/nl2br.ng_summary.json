@@ -1,0 +1,48 @@
+{
+  "ngDeps": {
+    "1": "angular2_test_20151212.pipes.nl2br",
+    "3": [
+      {
+        "1": "dart:convert",
+        "5": false
+      },
+      {
+        "1": "package:angular2/angular2.dart",
+        "5": false
+      }
+    ],
+    "5": [
+      {
+        "1": "Nl2BrPipe",
+        "4": [
+          {
+            "1": "Pipe",
+            "3": [
+              {
+                "1": "name",
+                "2": "\"nl2br\""
+              }
+            ],
+            "4": false,
+            "5": false,
+            "6": false,
+            "7": false,
+            "8": false
+          },
+          {
+            "1": "Injectable",
+            "4": false,
+            "5": false,
+            "6": false,
+            "7": true,
+            "8": false
+          }
+        ],
+        "6": [
+          "PipeTransform"
+        ]
+      }
+    ],
+    "6": "nl2br.dart"
+  }
+}

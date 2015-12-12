@@ -1,0 +1,38 @@
+{
+  "ngDeps": {
+    "1": "angular2.compiler",
+    "4": [
+      {
+        "1": "src/compiler/url_resolver.dart"
+      },
+      {
+        "1": "src/compiler/xhr.dart"
+      },
+      {
+        "1": "src/compiler/compiler.dart"
+      },
+      {
+        "1": "src/compiler/app_root_url.dart"
+      }
+    ],
+    "6": "compiler.dart",
+    "10": [
+      {
+        "1": "src/compiler/url_resolver.ng_deps.dart",
+        "4": "i0"
+      },
+      {
+        "1": "src/compiler/xhr.ng_deps.dart",
+        "4": "i1"
+      },
+      {
+        "1": "src/compiler/compiler.ng_deps.dart",
+        "4": "i2"
+      },
+      {
+        "1": "src/compiler/app_root_url.ng_deps.dart",
+        "4": "i3"
+      }
+    ]
+  }
+}

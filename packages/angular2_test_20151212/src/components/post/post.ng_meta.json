@@ -1,0 +1,80 @@
+{
+  "ngDeps": {
+    "1": "angular2_test_20151212.components.post",
+    "3": [
+      {
+        "1": "package:angular2/angular2.dart",
+        "5": false
+      },
+      {
+        "1": "package:angular2_test_20151212/src/domain/thread/thread.dart",
+        "5": false
+      },
+      {
+        "1": "dart:html",
+        "5": false
+      }
+    ],
+    "5": [
+      {
+        "1": "PostComponent",
+        "4": [
+          {
+            "1": "Component",
+            "3": [
+              {
+                "1": "selector",
+                "2": "'my-app-post'"
+              },
+              {
+                "1": "templateUrl",
+                "2": "'post.html'"
+              }
+            ],
+            "4": false,
+            "5": true,
+            "6": true,
+            "7": true,
+            "8": false
+          }
+        ]
+      }
+    ],
+    "6": "post.dart",
+    "10": [
+      {
+        "1": "package:angular2/angular2.ng_deps.dart",
+        "4": "i0"
+      }
+    ]
+  },
+  "PostComponent": {
+    "kind": "type",
+    "value": {
+      "isComponent": true,
+      "dynamicLoadable": true,
+      "selector": "my-app-post",
+      "exportAs": null,
+      "type": {
+        "name": "PostComponent",
+        "moduleUrl": "asset:angular2_test_20151212/lib/src/components/post/post.dart",
+        "isHost": false
+      },
+      "changeDetection": 5,
+      "inputs": {},
+      "outputs": {},
+      "hostListeners": {},
+      "hostProperties": {},
+      "hostAttributes": {},
+      "lifecycleHooks": [],
+      "template": {
+        "encapsulation": 2,
+        "template": "<form (submit)=\"postNewRes($event,resInput)\">\n\t<div class=\"form-group\">\n\t\t<label for=\"resInput\">投稿内容</label>\n\t\t<textarea #resInput id=\"resInput\" class=\"form-control\" rows=\"5\"></textarea>\n\t</div>\n\t<button class=\"btn btn-block btn-primary\">書き込む</button>\n</form>",
+        "templateUrl": "asset:angular2_test_20151212/lib/src/components/post/post.html",
+        "styles": [],
+        "styleUrls": [],
+        "ngContentSelectors": []
+      }
+    }
+  }
+}
